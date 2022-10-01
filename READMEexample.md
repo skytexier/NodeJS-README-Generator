@@ -1,29 +1,27 @@
-
-        # Readme Generator
+# clear
         
-        ## Description
+## Description
 
-        Creates a unique readme
+s
 
-        ## Table of Contents
+## Table of Contents
         
-        ## Installation
+## Installation
 
-        No installation required
+s
 
-        ## Usage
+## Usage
 
-        None/idk
+s
 
-        ## Contribution Guidelines
+## Contribution Guidelines
 
-        DONT
+s
 
-        ## Tests
+## Tests
 
-        None yet
+s
 
-        ## License
+## License
 
-        MIT License
-        
+ 
