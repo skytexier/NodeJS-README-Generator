@@ -36,7 +36,17 @@ const questions = [
     name: "test",
   },
   {
-    type: "checkbox",
+    type: "input",
+    message: "What is your Github username so people can reach out to you with questions?",
+    name: "githubUser",
+  },
+  {
+    type: "input",
+    message: "What is your email address for questions on this project?",
+    name: "email",
+  },
+  {
+    type: "list",
     message: "Which license would you like to use?",
     name: "license",
     choices: [
@@ -51,52 +61,19 @@ const questions = [
  
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-  inquirer.prompt(questions).then((data) => {
-    const { title: title } = data;
-    const { description: description } = data;
-    const { install: install } = data;
-    const { usage: usage } = data;
-    const { contribute: contribute } = data;
-    const { test: test } = data;
-    const { license: license } = data;
-
-const README =
-`# ${title}
-        
-## Description
-
-${description}
-
-## Table of Contents
-        
-## Installation
-
-${install}
-
-## Usage
-
-${usage}
-
-## Contribution Guidelines
-
-${contribute}
-
-## Tests
-
-${test}
-
-## License
-
-${license} `;
-    fs.writeFile("READMEexample.md", README, (err, data) => {
+    fs.writeFile("READMEexample.md", fileName, (err, data) => {
       err ? console.log(err) : console.log("Success!");
     });
-  });
-}
+  };
+
 
 // TODO: Create a function to initialize app
 function init(data) {
-  writeToFile(generateMarkdown(data));
+  inquirer.prompt(questions).then((data) => {
+  
+    console.log(data)
+    writeToFile(generateMarkdown(data))
+  });
 }
 
 // Function call to initialize app
