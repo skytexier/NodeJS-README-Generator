@@ -18,7 +18,7 @@ The only requirement for this application to run is NodeJS, aside from that ensu
   
 # Usage and Video Example
   
-[This is a video link](https://drive.google.com/file/d/1lR3U2a_Tx7InEp64oWyv1Cja1pxxRUW-/view?usp=sharing) to a basic walkthrough of how this application works. Aside from this one must run `nodeindex` in their terminal to begin the proccess.
+[This is a video link](https://drive.google.com/file/d/1lR3U2a_Tx7InEp64oWyv1Cja1pxxRUW-/view?usp=sharing) to a basic walkthrough of how this application works. Aside from this one must run `node index` in their terminal to begin the proccess.
 
 Here is a screenshot of what the terminal looked like in generating this README.
 
