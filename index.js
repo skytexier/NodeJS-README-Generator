@@ -69,6 +69,7 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init(data) {
+  //Promting questions with inquirer, then logging that data and calling the function writeToFile with the markdown generator function and data passed.
   inquirer.prompt(questions).then((data) => {
   
     console.log(data)

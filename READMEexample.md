@@ -1,8 +1,8 @@
-# Title [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
+# title [![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)
           
 # Description
   
-descrip
+desc
   
 # Table of Contents
 - [Installation](#installation)
@@ -14,26 +14,26 @@ descrip
 
 # Installation
   
-so
+a
   
 # Usage
   
-e
+a
   
 # Contribution Guidelines
   
-a
+n/a
   
 # Tests
   
-d
+n/a
 
 # Questions
 
 To see my Github page for further documentation, updates or other projects click [here](https://github.com/skytexier).
 
-For further questions or inquaries reach out at skyhamilton@gmail.com
+For further questions or inquaries reach out at 
 
 
 # License
-http://unlicense.org/ 
+http://creativecommons.org/publicdomain/zero/1.0/ 

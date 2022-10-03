@@ -54,10 +54,10 @@ function renderLicenseLink(license) {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
+  //Getting licenseBadge (dont actually use it here)
   const licenseBadge = renderLicenseBadge(license);
-  console.log('renderLicenseSection licenseBadge',licenseBadge);
+  //Getting licenseLink
   const licenseLink = renderLicenseLink(license);
-  console.log('renderLicenseSection licenseLink', licenseLink);
   if (license === undefined){
     return license = " ";
   } else {
@@ -71,8 +71,11 @@ ${licenseLink}`;
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
+  //Getting license section which now includes our link and a basic '# License' formatting.
   const licenseSection = renderLicenseSection(data.license);
+  //Getting the badge to then add to our markdown
   const licenseBadge = renderLicenseBadge(data.license)
+  //Returning our markdown with the data passed from our inquirer.
 return `# ${data.title} ${licenseBadge}
           
 # Description
@@ -111,4 +114,5 @@ For further questions or inquaries reach out at ${data.email}
 
 ${licenseSection} `;
 }
+//Exports
 module.exports = generateMarkdown;
