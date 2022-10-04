@@ -39,6 +39,9 @@ To see my Github page for further documentation, updates or other projects click
 
 For further questions or inquaries reach out at skyhamilton@gmail.com
 
+# Credits
+
+The only source I used for this project was Lukas-H's [Github](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba) that contained all the badges and helpful tips for calling them within the markdown.
 
 # License
 
